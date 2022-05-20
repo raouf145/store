@@ -1,0 +1,564 @@
+.container{
+    width:80% ;
+    margin: auto;
+
+
+    
+}
+.containerr{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width:80% ;
+    padding:10px;
+
+}
+.package{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color:#f05a66;
+}
+.flex{
+   display: flex;
+   justify-content: space-between;
+   font-size: 12px;
+   font-weight: 600;
+   line-height: 18px;
+   color:white;
+}
+
+a{
+    padding: 5px;}
+
+
+.left{
+    display: flex;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.right > div{
+    padding:10px ;
+}
+.english{
+    border:1px solid white ;
+    padding:10px ;
+    position: relative;
+}
+.english1{
+    position:absolute ;
+    top:100% ;
+    left: 0;
+    color:black ;
+    opacity:0 ;
+    pointer-events: none;
+    
+}
+.english:hover .english1{
+    color:black ;
+    opacity:1;
+    pointer-events: all;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    width:100% ;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+.usd{
+    border:1px solid white;
+    padding:10px;
+    position: relative;
+}
+.usd1{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top:100% ;
+    left: 0;
+}
+.usd:hover .usd1{
+    opacity: 1;
+    pointer-events:all ;
+    color: black;
+}
+.price{
+    padding:10px;
+}
+.icon{
+    border-right:1px solid white ;
+    padding:10px ;
+}
+.contact{
+    border-right:1px solid white ;
+}
+.FAQS{
+    border-right:1px solid white ;
+}
+.shop{
+    position: relative;
+    opacity: 1;
+}
+.shop1{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    opacity:0;
+    pointer-events: none;
+
+}
+
+
+.home{
+    position: relative;
+    opacity: 1;
+}
+.home1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    opacity:0;
+    pointer-events: none;
+
+}
+.home:hover .home1{
+    opacity: 1;
+    width: 1170px;
+    left: -300px; 
+}
+.fashion1{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.push{
+    border: 1px solid black ;
+}
+.type1{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+    line-height: 1.5;
+    color: white;
+
+    
+}
+.blog{
+    position: relative;
+    opacity: 1;
+}
+.blog1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events:none ;
+    display: flex;
+    justify-content: center;
+}
+.blog:hover .blog1{
+    opacity: 1;
+    pointer-events: all;
+}
+.shop:hover .shop1{
+    opacity: 1;
+    pointer-events: all;
+    width: 1170px;
+    left: -300px;
+    
+}
+.drop{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    width:100%;
+}
+.attribute{
+    display: flex;
+    justify-content:right;
+}
+.attr{
+    display: flex;
+    justify-content: left;
+}
+.back{
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-image: url(../task/images/background.jpeg);
+    padding:30% ;
+}
+
+.word{
+    text-align: left;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.first{
+    position: relative;
+    border: black;
+    overflow: hidden;
+    border: 1px solid white;
+}
+.first img{
+    width:100% ;
+    transition: 5s;
+}
+.first img:hover{
+    transform: scale(1.1, 1.1);
+    width:100% ;
+}
+
+
+.men{
+    bottom:80px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: block;
+    padding:10px 20px ;
+    background-color: white;
+    font-size: 16px;
+    background-color: white;
+}
+.men:hover{
+    background-color: palevioletred;
+}
+li{
+    background-color: papayawhip;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black ;
+    height: 1.5;
+
+}
+.li{
+
+}
+button{
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    right: 20px;
+}
+.random{
+    position: relative;
+
+}
+random1{
+    position: absolute;
+
+}
+title{
+    opacity: 0;
+    pointer-events: none;
+}
+.random:hover .random1{
+    opacity: 1;
+    pointer-events: all;
+    transition: 5s step-end;
+    
+}
+.down{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 38px;
+    opacity: .8;
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: .3px;
+    background-color: tomato;
+    transition: 10s;
+}
+i:hover .tittle{
+    opacity: 1;
+    pointer-events: all;
+}
+.icon{
+    text-align: center;
+}
+.im{
+    border: 2px solid black ;
+}
+.word{
+    animation-name:time ;
+    animation-duration: 5s;
+
+}
+.father{
+    display: flex;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.feature{
+    font-size: 26px;
+    line-height: 1.4em;
+}
+.woman{
+    background-color: whitesmoke;
+    text-decoration-line: underline;
+    color: red;
+    display:inline-flex ;
+}
+.mens{
+    opacity: 0.2;
+    color: black;
+}
+.mens:hover{
+    text-decoration-line:underline ;
+    text-decoration: red;
+    opacity: 1;
+
+}
+.kids{
+    opacity: 0.2;
+    color: black;
+}
+.kids:hover{
+    opacity: 1;
+    text-decoration: red;
+}
+.money{
+    position:fixed ;
+    animation: alternate;
+    bottom:50%;
+    top:70% ; 
+    left:90%;
+    background-color: green;
+}
+.mone{
+    background-color: green;
+    border-radius: 50%;
+    right: 0;
+    bottom:0 ;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    animation-name:opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 300 ;
+}
+@keyframes opacity{
+    form{
+        opacity: 1;
+    }
+    to{
+        opacity:0;
+    }
+}
+
+.best1{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 1;
+    transition: all .3s ease;
+}
+.best{
+    position: absolute;
+    bottom:1px ;
+    width:100% ;
+    opacity: 0;
+    bottom: 100px;
+}
+.best1:hover .best{
+    opacity: 1;
+    transition: 1s ease-in;
+}
+.mohamed{
+    border: 1px solid black ;
+}
+.color{
+    color: red;
+    font-size: 18px;
+}
+.dots{
+    margin-top: 0 ;
+    left: 50%;
+    top: 100%;
+    border-radius: 50%;
+    transform: translateX(50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.dot{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    left: 30%;
+
+}
+.ahly{
+    width:100% ;
+}
+.font{
+    font-size: 50px;
+    color: white;
+}
+.picture{
+    position: relative;
+
+}
+.picture1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.treka{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+.treka1{
+    border-radius:50% ;
+}
+.abo{
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+}
+.treka:hover .abo{
+    opacity:1 ;
+    pointer-events: all;
+    transition: 2s;
+}
+.ground{
+    position: relative;
+}
+.ground1{
+    position:absolute ;
+    bottom:80% ;
+    left:20px;
+
+}
+.ground2{
+    right:15%;
+    background-color: palevioletred;
+}
+.ground2:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.nullam{
+    padding-bottom: 100px;
+}
+.may{
+    top:5%;
+    right:5%;
+    color: black;
+    background-color: red;
+
+}
+.eight{
+    transition: 0.3s ease;
+}
+h2{
+    color:red;
+    font-size: 15px;
+}
+.sign{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top:50px;
+    top: 5px;
+
+}
+form{
+    top: 10px;
+}
+.sign1{
+    position: absolute;
+    left:20%;
+    width: 50%;
+    top: 5px;
+}
+.sign2{
+    position: relative;
+    right:120px;
+    left: 100px;
+    bottom:50px;
+}
+.sign3{
+    position: absolute;
+    left:80%;
+
+
+}
+.black{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    bottom: 100px;
+}
+.AKERA{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    top: 1000px;
+
+}
+.mohamedraouf{
+    background-color:midnightblue;
+    width:100% ;
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+}
+
+
+
+
